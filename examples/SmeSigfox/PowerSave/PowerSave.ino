@@ -111,6 +111,7 @@ void loop() {
 			//do nothing.... do not wake SFX
 		case '0':
 			SerialUSB.println("Do nothing !");
+			wake = '\0';
 			exit = 0;
 			break;
 
